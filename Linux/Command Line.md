@@ -3,7 +3,7 @@
 
 > The **shell** is a program that takes your command from keyboard and sends to the OS to perform.
 
-```bash
+```shell
 echo Hello World
 ```
 ```txt
@@ -12,7 +12,7 @@ Hello World
 
 > The `date` command outputs the current date. #cmd
 
-```bash
+```shell
 date
 ```
 ```txt
@@ -22,7 +22,7 @@ Wed May 18 05:47:54 PM CDT 2022
 
 > The `whoami` command outputs the current user logged in. #cmd
 
-```bash
+```shell
 whoami
 ```
 ```txt
@@ -51,7 +51,7 @@ enzo
 |-- var
 ```
 
-```bash
+```shell
 pwd
 ```
 
@@ -73,27 +73,27 @@ Two ways to specify a path
 	- can just treat the current dir as the starting 'root'
 	
 Absolute Pathing	
-```bash
+```shell
 cd /home/enzo/Pictures
 ```
 
 Relative Pathing
-```bash
+```shell
 cd Selfies
 ```
 
 Shortcuts
-`.` - the **current** dir
-`..` - the **parent** dir
-`~` - the **home** dir `/home/enzo`
-`-` - the **previous** dir
+- `.` - the **current** dir
+- `..` - the **parent** dir
+- `~` - the **home** dir `/home/enzo`
+- `-` - the **previous** dir
 
 ---
 
 # 4. `ls` (List Directory)
 > The `ls` command lists the contents of the current directory. #cmd 
 
-```bash
+```shell
 ls /home/enzo
 ```
 ```txt
@@ -101,11 +101,11 @@ Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
 ```
 
 Options
-`-a` - includes the hidden files in a dir (hidden files are prefixed with a `.`)
-`-l` - shows a detailed list of files in a long format
-**\*These options can be used at the same time\***
+- `-a` - includes the hidden files in a dir (hidden files are prefixed with a `.`)
+- `-l` - shows a detailed list of files in a long format
+-  These options can be used at the same time
 
-```bash
+```shell
 ls -a
 ls -l
 ls -la
@@ -129,7 +129,7 @@ drwxr-xr-x 2 enzo enzo 4096 May 17 17:07 Videos
 # 5. `touch` command
 > The `touch` command creates new empty files. #cmd 
 
-```bash
+```shell
 mkdir Linux_Journey
 cd Linux_Journey
 touch newFile
@@ -146,7 +146,7 @@ ls
 # 6. `file` command
 > The `file` command will output the file type of a file. #cmd 
 
-```bash
+```shell
 file newFile
 ```
 
@@ -154,7 +154,7 @@ file newFile
 newFile: empty
 ```
 
-```bash
+```shell
 file Linux_Journey
 ```
 
@@ -170,7 +170,7 @@ Linux_Journey: directory
 - It not only displays file contents, but it can combine multiple files and show you the output of them
 - It's not great for viewing large files and it's only meantfor short content
 
-```bash
+```shell
 cat firstName.txt
 ```
 
@@ -178,7 +178,7 @@ cat firstName.txt
 Joshua
 ```
 
-```bash
+```shell
 cat firstName.txt lastname.txt
 ```
 
